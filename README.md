@@ -1,23 +1,23 @@
 
 # 目录
 
+- [目录](#目录)
 - [序](#序)
 - [并发控制](#并发控制)
-- [内存管理：内存分、逃逸分析、垃圾回收](#内存管理：内存分配、逃逸分析、垃圾回收)
+- [内存管理：内存分配、逃逸分析、垃圾回收](#内存管理内存分配逃逸分析垃圾回收)
 - [协程](#协程)
 - [go语言中的锁控制](#go语言中的锁控制)
-- [defer、chan、map、slice、select](#defer、chan、map、slice、select)
-- [Writer、Reader接口](#Writer、Reader接口)
-- [内置类型、引用类型、结构类型](#内置类型、引用类型、结构类型)
-- [创建、声明、初始化](#创建、声明、初始化)
-- [new、make](#new、make)
+- [defer、chan、map、slice、select](#deferchanmapsliceselect)
+- [Writer、Reader接口](#writerreader接口)
+- [内置类型、引用类型、结构类型](#内置类型引用类型结构类型)
+- [创建、声明、初始化](#创建声明初始化)
+- [new、make](#newmake)
 - [指针](#指针)
-- [Byte、bit、Unicode、UTF-8](#Byte、bit、Unicode、UTF-8)
-- [锁、sync.Mutex互斥锁、sync.RWMutex读写锁、sync.Once](#锁、sync.Mutex互斥锁、sync.RWMutex读写锁、sync.Once)
+- [Byte、bit、Unicode、UTF-8](#bytebitunicodeutf-8)
 - [通过cgo调用c代码](#通过cgo调用c代码)
-- [unsife包、context包](#unsife包、context包)
+- [unsife包、context包](#unsife包context包)
 - [分布式系统](#分布式系统)
-- [错误异常：fatal\panic\err](#错误异常：fatal\panic\err)
+- [错误异常：fatal\\panic\\err](#错误异常fatalpanicerr)
 
 # 序
 

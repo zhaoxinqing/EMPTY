@@ -40,6 +40,8 @@
 
 # go语言中的锁控制
 
+> 锁、sync.Mutex互斥锁、sync.RWMutex读写锁、sync.Once
+
 # defer、chan、map、slice、select
 
 recover捕获的是祖父级调用时的异常，直接调用时无效，必须在defer函数中直接调用才有效：
@@ -64,8 +66,6 @@ func main() {
 # 指针
 
 # Byte、bit、Unicode、UTF-8
-
-# 锁、sync.Mutex互斥锁、sync.RWMutex读写锁、sync.Once
 
 # 通过cgo调用c代码
 

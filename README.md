@@ -1,2 +1,2 @@
-# library-go
+# EMPTY
 Reference document

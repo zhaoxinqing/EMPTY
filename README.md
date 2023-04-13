@@ -1,1 +1,1 @@
-Alternate Mode/Alt Mode
+# platform-go

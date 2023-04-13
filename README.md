@@ -93,3 +93,28 @@ public class Overload {
 ## 深拷贝、浅拷贝
 
 在有指针的情况下，浅拷贝只是增加了一个指针指向已经存在的内存，而深拷贝就是增加一个指针并且申请一个新的内存，使这个增加的指针指向这个新的内存，采用深拷贝的情况下，释放内存的时候就不会出现在浅拷贝时重复释放同一内存的错误。
+
+## 格式化打印 - TestPrintf
+
+```go
+func TestPrintf() {
+	type Person struct {
+		Name string
+		Age  int
+	}
+
+	person := Person{Name: "walala", Age: 18}
+	fmt.Printf("person:%v\n", person)  // person:{walala 18}
+	fmt.Printf("person:%+v\n", person) // person:{Name:walala Age:18}
+
+	personPit := &Person{Name: "walala02", Age: 30}
+	fmt.Printf("personPit:%v\n", personPit)  // personPit:&{walala02 30}
+	fmt.Printf("personPit:%+v\n", personPit) // personPit:&{Name:walala02 Age:30}
+
+	fmt.Printf("personPit:%v\n", &personPit)  // personPit:0xc00014ab58 (& 拿到的是指针)
+	fmt.Printf("personPit:%+v\n", &personPit) // personPit:0xc00014ab58
+
+	fmt.Printf("personPit:%v\n", *personPit)  // personPit:{walala02 30} (* 指针指向的值)
+	fmt.Printf("personPit:%+v\n", *personPit) // personPit:{Name:walala02 Age:30}
+}
+```
